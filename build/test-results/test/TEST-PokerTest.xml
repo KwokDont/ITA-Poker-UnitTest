@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="PokerTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2019-08-16T09:29:55" hostname="ZHA-ITA083-W10" time="0.003">
+  <properties/>
+  <testcase name="should_return_3C_when_given_3C_2S" classname="PokerTest" time="0.003"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
