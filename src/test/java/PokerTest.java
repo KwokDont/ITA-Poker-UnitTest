@@ -36,19 +36,19 @@ public class PokerTest {
     }
 
     @Test
-    public void should_return_equal_when_card1_and_card2_has_same_num() {
-        String cards1 = "2D 3C 5C 6C 9D";
+    public void should_return_card2_when_compare_bigger_card2_and_card1() {
+        String cards1 = "2D 4C 5C 6C 9D";
         String cards2 = "2C 3S 5D 6D 9S";
 
         String highCard = PokerUtil.compare(cards1, cards2);
 
-        Assert.assertEquals(PokerUtil.EQUAL_POKERS, highCard);
+        Assert.assertEquals(cards1, highCard);
     }
 
     @Test
-    public void should_return_card1_when_card1_has_pair() {
+    public void should_return_equal_when_card1_and_card2_has_same_num() {
         String cards1 = "2D 3C 5C 6C 9D";
-        String cards2 = "2C 2S 5D 6D 9S";
+        String cards2 = "2C 3S 5D 6D 9S";
 
         String highCard = PokerUtil.compare(cards1, cards2);
 

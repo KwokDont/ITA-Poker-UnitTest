@@ -10,7 +10,6 @@ import java.util.List;
 public class PokerSet implements Comparable {
 
     private Poker[] pokers;
-    public int weight;
 
     public PokerSet(String cards) {
         String[] cardStrs = cards.split(" ");
@@ -49,20 +48,17 @@ public class PokerSet implements Comparable {
 
     @Override
     public int compareTo(Object o) {
-        if (this.getBiggest() != ((PokerSet) o).getBiggest()) {
-            if (this.getBiggest() > ((PokerSet) o).getBiggest())
+        for(int i = pokers.length - 1 ; i >= 0 ; i--) {
+            if(pokers[i].getNum() > ((PokerSet) o).getPokers()[i].getNum()) {
                 return 1;
-            else
+            }else if (pokers[i].getNum() < ((PokerSet) o).getPokers()[i].getNum()){
                 return -1;
-        } else
-            return 0;
+            }
+        }
+        return 0;
     }
 
     public Poker[] getPokers() {
         return pokers;
-    }
-
-    public int getWeight() {
-        return weight;
     }
 }

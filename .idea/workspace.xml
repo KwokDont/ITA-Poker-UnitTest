@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6af4a8d3-8a97-4ab6-a0d8-0d4cb74938bd" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/card/Poker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/card/Poker.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/card/PokerEnum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/card/PokerEnum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/card/PokerUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/card/PokerUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/card/PokerSet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/card/PokerSet.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/PokerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/PokerTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -29,11 +26,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/PokerTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="281">
-              <caret line="52" column="54" selection-start-line="52" selection-start-column="54" selection-end-line="52" selection-end-column="54" />
+            <state relative-caret-position="140">
+              <caret line="50" column="41" lean-forward="true" selection-start-line="50" selection-start-column="41" selection-end-line="50" selection-end-column="41" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -44,8 +41,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/card/Poker.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="196">
-              <caret line="7" column="31" selection-start-line="7" selection-start-column="31" selection-end-line="7" selection-end-column="31" />
+            <state relative-caret-position="224">
+              <caret line="8" column="50" lean-forward="true" selection-start-line="8" selection-start-column="50" selection-end-line="8" selection-end-column="50" />
               <folding>
                 <element signature="e#274#275#0" expanded="true" />
                 <element signature="e#308#309#0" expanded="true" />
@@ -59,24 +56,23 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/card/PokerUtil.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="169">
-              <caret line="9" column="44" lean-forward="true" selection-start-line="9" selection-start-column="44" selection-end-line="9" selection-end-column="44" />
+            <state relative-caret-position="196">
+              <caret line="7" column="37" lean-forward="true" selection-start-line="7" selection-start-column="37" selection-end-line="7" selection-end-column="37" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/card/PokerSet.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="168">
-              <caret line="6" column="28" lean-forward="true" selection-start-line="6" selection-start-column="28" selection-end-line="6" selection-end-column="28" />
+            <state relative-caret-position="93">
+              <caret line="49" column="36" selection-start-line="49" selection-start-column="36" selection-end-line="49" selection-end-column="36" />
               <folding>
+                <element signature="imports" expanded="true" />
                 <element signature="e#924#925#0" expanded="true" />
                 <element signature="e#960#961#0" expanded="true" />
                 <element signature="e#1091#1092#0" expanded="true" />
                 <element signature="e#1120#1121#0" expanded="true" />
-                <element signature="e#455#456#0" expanded="true" />
-                <element signature="e#484#485#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -203,7 +199,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1566120907836" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1566123824766" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RecentsManager">
@@ -303,17 +299,11 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1565933967429</updated>
-      <workItem from="1566110419922" duration="10171000" />
+      <workItem from="1566110419922" duration="12134000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="PokerTest_should_return_KC_when_given_KC_2S - 2019.08.18 at 16h 00m 48s.xml">
-      <configuration name="PokerTest.should_return_KC_when_given_KC_2S" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="PokerTest - 2019.08.18 at 16h 00m 54s.xml">
-      <configuration name="PokerTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="PokerTest - 2019.08.18 at 17h 01m 14s.xml">
       <configuration name="PokerTest" configurationId="JUnit" />
     </history-entry>
@@ -338,9 +328,15 @@
     <history-entry file="PokerTest - 2019.08.18 at 17h 25m 40s.xml">
       <configuration name="PokerTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="PokerTest - 2019.08.18 at 18h 22m 15s.xml">
+      <configuration name="PokerTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PokerTest - 2019.08.18 at 18h 22m 39s.xml">
+      <configuration name="PokerTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10171000" />
+    <option name="totallyTimeSpent" value="12134000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -414,8 +410,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/card/Poker.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="196">
-          <caret line="7" column="31" selection-start-line="7" selection-start-column="31" selection-end-line="7" selection-end-column="31" />
+        <state relative-caret-position="224">
+          <caret line="8" column="50" lean-forward="true" selection-start-line="8" selection-start-column="50" selection-end-line="8" selection-end-column="50" />
           <folding>
             <element signature="e#274#275#0" expanded="true" />
             <element signature="e#308#309#0" expanded="true" />
@@ -427,32 +423,31 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/card/PokerUtil.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="169">
-          <caret line="9" column="44" lean-forward="true" selection-start-line="9" selection-start-column="44" selection-end-line="9" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/PokerTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="281">
-          <caret line="52" column="54" selection-start-line="52" selection-start-column="54" selection-end-line="52" selection-end-column="54" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="196">
+          <caret line="7" column="37" lean-forward="true" selection-start-line="7" selection-start-column="37" selection-end-line="7" selection-end-column="37" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/card/PokerSet.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="6" column="28" lean-forward="true" selection-start-line="6" selection-start-column="28" selection-end-line="6" selection-end-column="28" />
+        <state relative-caret-position="93">
+          <caret line="49" column="36" selection-start-line="49" selection-start-column="36" selection-end-line="49" selection-end-column="36" />
           <folding>
+            <element signature="imports" expanded="true" />
             <element signature="e#924#925#0" expanded="true" />
             <element signature="e#960#961#0" expanded="true" />
             <element signature="e#1091#1092#0" expanded="true" />
             <element signature="e#1120#1121#0" expanded="true" />
-            <element signature="e#455#456#0" expanded="true" />
-            <element signature="e#484#485#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/PokerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="50" column="41" lean-forward="true" selection-start-line="50" selection-start-column="41" selection-end-line="50" selection-end-column="41" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
