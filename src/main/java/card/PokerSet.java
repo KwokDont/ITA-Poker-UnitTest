@@ -12,25 +12,25 @@ public class PokerSet implements Comparable {
 
     public PokerSet(String cards) {
         pairMap = new HashMap<>();
+        generatePokerArray(cards);
+        sortPoker();
+        generatePairMap();
+    }
+
+    private void generatePokerArray(String cards) {
         String[] cardStrs = cards.split(" ");
         pokers = new Poker[cardStrs.length];
         for (int i = 0; i < cardStrs.length; i++) {
             Poker poker = new Poker(cardStrs[i]);
             pokers[i] = poker;
         }
-        sortPoker();
-        generatePairMap();
     }
 
     public void sortPoker() {
         Arrays.sort(pokers, new Comparator<Poker>() {
             @Override
             public int compare(Poker o1, Poker o2) {
-                if (o1.getNum() != o2.getNum()) {
-                    return o1.getNum() > o2.getNum() ? 1 : -1;
-                } else {
-                    return 0;
-                }
+                return o1.getNum() != o2.getNum() ? o1.getNum() > o2.getNum() ? 1 : -1 : 0;
             }
         });
     }
