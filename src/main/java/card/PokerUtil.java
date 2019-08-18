@@ -2,6 +2,8 @@ package card;
 
 public class CardUtil {
 
+    private Poker[] pokers = new Poker[5];
+
     public static Poker compare(String card1, String card2) {
         Poker poker1 = new Poker(card1);
         Poker poker2 = new Poker(card2);
