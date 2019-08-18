@@ -64,10 +64,7 @@ public class PokerSet implements Comparable {
     }
 
     private int getBigPairCard() {
-        int bigCard = 0;
-        for(int value:pairMap.values()){
-            if(value > bigCard) bigCard = value;
-        }
+        int bigCard = pairMap.values().stream().mapToInt(value -> value).filter(value -> value >= 0).max().orElse(0);
         return bigCard;
     }
 
