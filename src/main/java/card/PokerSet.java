@@ -3,6 +3,7 @@ package card;
 import com.sun.deploy.util.StringUtils;
 
 import java.util.*;
+import java.util.stream.Collectors;
 
 public class PokerSet implements Comparable {
 
@@ -38,10 +39,7 @@ public class PokerSet implements Comparable {
     }
 
     public String poker2Strng() {
-        List<String> pokerNums = new ArrayList<>();
-        for (Poker poker : pokers) {
-            pokerNums.add(poker.getPokerStr());
-        }
+        List<String> pokerNums = Arrays.stream(pokers).map(Poker::getPokerStr).collect(Collectors.toList());
         return StringUtils.join(pokerNums, " ");
     }
 
@@ -64,7 +62,7 @@ public class PokerSet implements Comparable {
     }
 
     private int getBigPairCard() {
-        int bigCard = pairMap.values().stream().mapToInt(value -> value).filter(value -> value >= 0).max().orElse(0);
+        int bigCard = pairMap.keySet().stream().mapToInt(value -> value).filter(value -> value >= 0).max().orElse(0);
         return bigCard;
     }
 
