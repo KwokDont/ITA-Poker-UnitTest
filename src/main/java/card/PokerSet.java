@@ -2,16 +2,15 @@ package card;
 
 import com.sun.deploy.util.StringUtils;
 
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.Comparator;
-import java.util.List;
+import java.util.*;
 
 public class PokerSet implements Comparable {
 
     private Poker[] pokers;
+    private HashMap<Integer, Integer> pairMap;
 
     public PokerSet(String cards) {
+        pairMap = new HashMap<>();
         String[] cardStrs = cards.split(" ");
         pokers = new Poker[cardStrs.length];
         for (int i = 0; i < cardStrs.length; i++) {
@@ -46,8 +45,26 @@ public class PokerSet implements Comparable {
         return StringUtils.join(pokerNums, " ");
     }
 
+    private int pairNum() {
+        for (int i = 0; i < pokers.length ; i++) {
+            int pairNum = 1;
+            for (int j = i + 1; j < pokers.length; j++) {
+                if (pokers[i].getNum() == pokers[j].getNum()) {
+                    pairNum++;
+                }
+            }
+            if(pairNum > 1) pairMap.put(pokers[i].getNum(), pairNum);
+        }
+        return pairMap.keySet().size();
+    }
+
     @Override
     public int compareTo(Object o) {
+        if(this.pairNum() > ((PokerSet) o).pairNum()) {
+            return 1;
+        }else if(this.pairNum() < ((PokerSet) o).pairNum()) {
+            return -1;
+        }
         for(int i = pokers.length - 1 ; i >= 0 ; i--) {
             if(pokers[i].getNum() > ((PokerSet) o).getPokers()[i].getNum()) {
                 return 1;
