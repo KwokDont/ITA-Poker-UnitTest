@@ -19,6 +19,7 @@ public class PokerSet implements Comparable {
             pokers[i] = poker;
         }
         sortPoker();
+        generatePairMap();
     }
 
     public void sortPoker() {
@@ -34,6 +35,15 @@ public class PokerSet implements Comparable {
         });
     }
 
+    private void generatePairMap() {
+        for (int i = 0; i < pokers.length ; i++) {
+            if(pairMap.keySet().contains(pokers[i].getNum())) continue;
+            int pairNum = 1;
+            pairNum = getPairNum(i, pairNum);
+            if(pairNum > 1) pairMap.put(pokers[i].getNum(), pairNum);
+        }
+    }
+
     public int getBiggest() {
         return pokers[pokers.length - 1].getNum();
     }
@@ -44,11 +54,6 @@ public class PokerSet implements Comparable {
     }
 
     private int pairNum() {
-        for (int i = 0; i < pokers.length ; i++) {
-            int pairNum = 1;
-            pairNum = getPairNum(i, pairNum);
-            if(pairNum > 1) pairMap.put(pokers[i].getNum(), pairNum);
-        }
         return pairMap.keySet().size();
     }
 
@@ -71,8 +76,18 @@ public class PokerSet implements Comparable {
         return secondCard;
     }
 
+    private int getMaxSameCardNum() {
+        int sameCardNum = pairMap.values().stream().mapToInt(num -> num).filter(num -> num >= 0).max().orElse(0);
+        return sameCardNum;
+    }
+
     @Override
     public int compareTo(Object o) {
+        if(this.getMaxSameCardNum() > ((PokerSet) o).getMaxSameCardNum()) {
+            return 1;
+        }else if(this.getMaxSameCardNum() < ((PokerSet) o).getMaxSameCardNum()) {
+            return -1;
+        }
         if(this.pairNum() == ((PokerSet) o).pairNum()) return compareWithPair((PokerSet) o);
         return this.pairNum() > ((PokerSet) o).pairNum() ? 1 : -1;
     }

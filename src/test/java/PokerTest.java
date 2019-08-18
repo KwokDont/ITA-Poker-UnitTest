@@ -122,4 +122,14 @@ public class PokerTest {
 
         Assert.assertEquals(PokerUtil.EQUAL_POKERS, highCard);
     }
+
+    @Test
+    public void should_return_card_when_card1_has_three_same_poker() {
+        String cards1 = "2D 2S 2C 5S KD";
+        String cards2 = "2C 2H 5H 5D KS";
+
+        String highCard = PokerUtil.compare(cards1, cards2);
+
+        Assert.assertEquals(cards1, highCard);
+    }
 }
