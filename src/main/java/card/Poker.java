@@ -6,7 +6,7 @@ public class Poker {
     private String color;
 
     public Poker(String card) {
-        this.num = Integer.parseInt(card.substring(0,1));
+        this.num = PokerEnum.getPokerValue(String.valueOf(card.charAt(0)));
         this.color = card.substring(1,2);
     }
 
