@@ -182,4 +182,24 @@ public class PokerTest {
 
         Assert.assertEquals(cards2, highCard);
     }
+
+    @Test
+    public void should_return_equals_when_card2_flush_card1_flush_with_same_carnum() {
+        String cards1 = "2C 3C 4C 5C 8C";
+        String cards2 = "2H 3H 4H 5H 8H";
+
+        String highCard = PokerUtil.compare(cards1, cards2);
+
+        Assert.assertEquals(PokerUtil.EQUAL_POKERS, highCard);
+    }
+
+    @Test
+    public void should_return_card1_when_both_flush_and_card1_has_bigger() {
+        String cards1 = "2C 3C 4C 5C 9C";
+        String cards2 = "2H 3H 4H 5H 8H";
+
+        String highCard = PokerUtil.compare(cards1, cards2);
+
+        Assert.assertEquals(cards1, highCard);
+    }
 }

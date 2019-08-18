@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6af4a8d3-8a97-4ab6-a0d8-0d4cb74938bd" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/card/PokerSet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/card/PokerSet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/PokerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/PokerTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -25,11 +25,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/PokerTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="256">
-              <caret line="180" column="46" lean-forward="true" selection-start-line="180" selection-start-column="46" selection-end-line="180" selection-end-column="46" />
+            <state relative-caret-position="337">
+              <caret line="197" column="38" selection-start-line="197" selection-start-column="38" selection-end-line="197" selection-end-column="38" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -61,11 +61,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/card/PokerSet.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="310">
-              <caret line="93" column="51" lean-forward="true" selection-start-line="93" selection-start-column="51" selection-end-line="93" selection-end-column="51" />
+            <state relative-caret-position="1363">
+              <caret line="161" lean-forward="true" selection-start-line="161" selection-end-line="161" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#942#943#0" expanded="true" />
@@ -123,8 +123,8 @@
         <option value="$PROJECT_DIR$/src/main/java/card/Poker.java" />
         <option value="$PROJECT_DIR$/src/main/java/card/PokerUtil.java" />
         <option value="$PROJECT_DIR$/src/main/java/card/PokerEnum.java" />
-        <option value="$PROJECT_DIR$/src/test/java/PokerTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/card/PokerSet.java" />
+        <option value="$PROJECT_DIR$/src/test/java/PokerTest.java" />
       </list>
     </option>
   </component>
@@ -206,7 +206,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1566144794764" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1566144993756" />
     <property name="extract.method.default.visibility" value="private" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -238,31 +238,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="PokerTest.should_return_card1_when_both_flush_and_card1_has_bigger" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="com.oocl.com.oocl.unitTest.test" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="PokerTest" />
+      <option name="METHOD_NAME" value="should_return_card1_when_both_flush_and_card1_has_bigger" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="PokerTest.should_return_card1_when_card1_card2_straight_and_card1_bigger" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="com.oocl.com.oocl.unitTest.test" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="PokerTest" />
       <option name="METHOD_NAME" value="should_return_card1_when_card1_card2_straight_and_card1_bigger" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="PokerTest.should_return_card1_when_card1_has_bigger_three_same_poker_than_card2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="com.oocl.com.oocl.unitTest.test" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="PokerTest" />
-      <option name="METHOD_NAME" value="should_return_card1_when_card1_has_bigger_three_same_poker_than_card2" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="PokerTest.should_return_card1_when_card1_straight_and_card_is_three" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="com.oocl.com.oocl.unitTest.test" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="PokerTest" />
-      <option name="METHOD_NAME" value="should_return_card1_when_card1_straight_and_card_is_three" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -278,13 +268,23 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="PokerTest.should_return_equals_when_card2_flush_card1_flush_with_same_carnum" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="com.oocl.com.oocl.unitTest.test" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="PokerTest" />
+      <option name="METHOD_NAME" value="should_return_equals_when_card2_flush_card1_flush_with_same_carnum" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.PokerTest" />
+        <item itemvalue="JUnit.PokerTest.should_return_card1_when_both_flush_and_card1_has_bigger" />
+        <item itemvalue="JUnit.PokerTest.should_return_equals_when_card2_flush_card1_flush_with_same_carnum" />
         <item itemvalue="JUnit.PokerTest.should_return_card1_when_card1_card2_straight_and_card1_bigger" />
         <item itemvalue="JUnit.PokerTest.should_return_equals_when_card1_card2_straight_and_the_same" />
-        <item itemvalue="JUnit.PokerTest.should_return_card1_when_card1_straight_and_card_is_three" />
-        <item itemvalue="JUnit.PokerTest.should_return_card1_when_card1_has_bigger_three_same_poker_than_card2" />
       </list>
     </recent_temporary>
   </component>
@@ -298,20 +298,11 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1565933967429</updated>
-      <workItem from="1566110419922" duration="31039000" />
+      <workItem from="1566110419922" duration="31227000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="PokerTest - 2019.08.18 at 23h 42m 52s.xml">
-      <configuration name="PokerTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="PokerTest_should_return_card1_when_card1_card2_straight_and_card1_bigger - 2019.08.18 at 23h 44m 16s.xml">
-      <configuration name="PokerTest.should_return_card1_when_card1_card2_straight_and_card1_bigger" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="PokerTest_should_return_card1_when_card1_card2_straight_and_card1_bigger - 2019.08.18 at 23h 47m 38s.xml">
-      <configuration name="PokerTest.should_return_card1_when_card1_card2_straight_and_card1_bigger" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="PokerTest - 2019.08.18 at 23h 47m 43s.xml">
       <configuration name="PokerTest" configurationId="JUnit" />
     </history-entry>
@@ -333,9 +324,18 @@
     <history-entry file="PokerTest - 2019.08.19 at 00h 12m 31s.xml">
       <configuration name="PokerTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="PokerTest - 2019.08.19 at 00h 13m 17s.xml">
+      <configuration name="PokerTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PokerTest_should_return_equals_when_card2_flush_card1_flush_with_same_carnum - 2019.08.19 at 00h 15m 09s.xml">
+      <configuration name="PokerTest.should_return_equals_when_card2_flush_card1_flush_with_same_carnum" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PokerTest_should_return_equals_when_card2_flush_card1_flush_with_same_carnum - 2019.08.19 at 00h 15m 21s.xml">
+      <configuration name="PokerTest.should_return_equals_when_card2_flush_card1_flush_with_same_carnum" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="31039000" />
+    <option name="totallyTimeSpent" value="31227000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -448,20 +448,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/PokerTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="256">
-          <caret line="180" column="46" lean-forward="true" selection-start-line="180" selection-start-column="46" selection-end-line="180" selection-end-column="46" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/card/PokerSet.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="310">
-          <caret line="93" column="51" lean-forward="true" selection-start-line="93" selection-start-column="51" selection-end-line="93" selection-end-column="51" />
+        <state relative-caret-position="1363">
+          <caret line="161" lean-forward="true" selection-start-line="161" selection-end-line="161" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#942#943#0" expanded="true" />
@@ -470,6 +460,16 @@
             <element signature="e#1306#1307#0" expanded="true" />
             <element signature="e#5295#5296#0" expanded="true" />
             <element signature="e#5378#5379#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/PokerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="337">
+          <caret line="197" column="38" selection-start-line="197" selection-start-column="38" selection-end-line="197" selection-end-column="38" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
