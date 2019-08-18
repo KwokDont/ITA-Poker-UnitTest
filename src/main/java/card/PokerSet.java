@@ -65,12 +65,8 @@ public class PokerSet implements Comparable {
 
     @Override
     public int compareTo(Object o) {
-        if(this.pairNum() > ((PokerSet) o).pairNum()) {
-            return 1;
-        }else if(this.pairNum() < ((PokerSet) o).pairNum()) {
-            return -1;
-        }
-        return compareBySingle((PokerSet) o);
+        if(this.pairNum() == ((PokerSet) o).pairNum()) return compareBySingle((PokerSet) o);
+        return this.pairNum() > ((PokerSet) o).pairNum() ? 1 : -1;
     }
 
     private int compareBySingle(PokerSet o) {
