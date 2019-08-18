@@ -90,18 +90,23 @@ public class PokerSet implements Comparable {
 
     @Override
     public int compareTo(Object o) {
-        if(this.isFlush() > ((PokerSet) o).isFlush()) {
-            return 1;
-        }else if(this.isFlush() < ((PokerSet) o).isFlush()) {
-            return -1;
-        }
-        if(this.isStraight() == IS_STRAIGHT && ((PokerSet) o).isStraight() == IS_STRAIGHT) {
+        if(this.isFlush() == IS_FLUSH  && ((PokerSet) o).isFlush() == IS_FLUSH) {
             if(this.getBiggest() == ((PokerSet) o).getBiggest()) return 0;
             return this.getBiggest() > ((PokerSet) o).getBiggest() ? 1 : -1;
-        }else if(this.isStraight() == NOT_STRAIGHT && ((PokerSet) o).isStraight() == NOT_STRAIGHT) {
-            return compareWithThree((PokerSet) o);
+        }else if(this.isFlush() == NOT_FLUSH  && ((PokerSet) o).isFlush() == NOT_FLUSH) {
+            return compareWithStraight((PokerSet) o);
         }
-        return this.isStraight() > ((PokerSet) o).isStraight() ? 1 : -1;
+        return this.isFlush() > ((PokerSet) o).isFlush() ? 1 : -1;
+    }
+
+    private int compareWithStraight(PokerSet o) {
+        if(this.isStraight() == IS_STRAIGHT && o.isStraight() == IS_STRAIGHT) {
+            if(this.getBiggest() == o.getBiggest()) return 0;
+            return this.getBiggest() > o.getBiggest() ? 1 : -1;
+        }else if(this.isStraight() == NOT_STRAIGHT && o.isStraight() == NOT_STRAIGHT) {
+            return compareWithThree(o);
+        }
+        return this.isStraight() > o.isStraight() ? 1 : -1;
     }
 
     private int compareWithThree(PokerSet o) {
