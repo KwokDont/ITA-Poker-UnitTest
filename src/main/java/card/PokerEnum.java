@@ -1,5 +1,7 @@
 package card;
 
+import java.util.Arrays;
+
 public enum  PokerEnum {
     TWO("2", 2), THREE("3", 3), FOUR("4", 4), FIVE("5", 5),
     SIX("6", 6), SEVEN("7", 7), EIGHT("8", 8), NINE("9", 9), TEN("10", 10),
@@ -16,12 +18,11 @@ public enum  PokerEnum {
     }
 
     public static Integer getPokerValue(String card) {
-        for (PokerEnum pokerEnum : PokerEnum.values()) {
-            if (pokerEnum.getCard().equals(card)) {
-                return pokerEnum.getValue();
-            }
-        }
-        return ERROR_CARD;
+        return Arrays.stream(PokerEnum.values())
+                .filter(pokerEnum -> pokerEnum.getCard().equals(card))
+                .findFirst()
+                .map(PokerEnum::getValue)
+                .orElse(ERROR_CARD);
     }
 
     public String getCard() {
