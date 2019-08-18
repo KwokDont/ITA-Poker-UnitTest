@@ -48,14 +48,19 @@ public class PokerSet implements Comparable {
     private int pairNum() {
         for (int i = 0; i < pokers.length ; i++) {
             int pairNum = 1;
-            for (int j = i + 1; j < pokers.length; j++) {
-                if (pokers[i].getNum() == pokers[j].getNum()) {
-                    pairNum++;
-                }
-            }
+            pairNum = getPairNum(i, pairNum);
             if(pairNum > 1) pairMap.put(pokers[i].getNum(), pairNum);
         }
         return pairMap.keySet().size();
+    }
+
+    private int getPairNum(int i, int pairNum) {
+        for (int j = i + 1; j < pokers.length; j++) {
+            if (pokers[i].getNum() == pokers[j].getNum()) {
+                pairNum++;
+            }
+        }
+        return pairNum;
     }
 
     @Override
@@ -65,10 +70,14 @@ public class PokerSet implements Comparable {
         }else if(this.pairNum() < ((PokerSet) o).pairNum()) {
             return -1;
         }
+        return compareBySingle((PokerSet) o);
+    }
+
+    private int compareBySingle(PokerSet o) {
         for(int i = pokers.length - 1 ; i >= 0 ; i--) {
-            if(pokers[i].getNum() > ((PokerSet) o).getPokers()[i].getNum()) {
+            if(pokers[i].getNum() > o.getPokers()[i].getNum()) {
                 return 1;
-            }else if (pokers[i].getNum() < ((PokerSet) o).getPokers()[i].getNum()){
+            }else if (pokers[i].getNum() < o.getPokers()[i].getNum()){
                 return -1;
             }
         }
