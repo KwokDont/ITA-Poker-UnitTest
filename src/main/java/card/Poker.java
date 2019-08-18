@@ -2,27 +2,27 @@ package card;
 
 public class Poker {
 
-    private String num;
-    private char grade;
+    private int num;
+    private String color;
 
-    public Poker(String num, char grade) {
-        this.num = num;
-        this.grade = grade;
+    public Poker(String card) {
+        this.num = Integer.parseInt(card.substring(0,1));
+        this.color = card.substring(1,2);
     }
 
-    public String getNum() {
+    public int getNum() {
         return num;
     }
 
-    public void setNum(String num) {
+    public void setNum(int num) {
         this.num = num;
     }
 
-    public char getGrade() {
-        return grade;
+    public String getColor() {
+        return color;
     }
 
-    public void setGrade(char grade) {
-        this.grade = grade;
+    public void setColor(String color) {
+        this.color = color;
     }
 }
