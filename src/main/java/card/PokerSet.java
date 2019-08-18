@@ -66,10 +66,18 @@ public class PokerSet implements Comparable {
         return bigCard;
     }
 
+    private int getSecondPairCard() {
+        int secondCard = pairMap.keySet().stream().mapToInt(value -> value).filter(value -> value >= 0).min().orElse(0);
+        return secondCard;
+    }
+
     @Override
     public int compareTo(Object o) {
         if(this.pairNum() == ((PokerSet) o).pairNum()) {
-            if(this.getBigPairCard() == ((PokerSet) o).getBigPairCard()) return compareBySingle((PokerSet) o);
+            if(this.getBigPairCard() == ((PokerSet) o).getBigPairCard()) {
+                if(this.getSecondPairCard() == ((PokerSet) o).getSecondPairCard()) return compareBySingle((PokerSet) o);
+                return this.getSecondPairCard() > ((PokerSet) o).getSecondPairCard() ? 1 : -1;
+            }
             return this.getBigPairCard() > ((PokerSet) o).getBigPairCard() ? 1 : -1;
         }
         return this.pairNum() > ((PokerSet) o).pairNum() ? 1 : -1;
