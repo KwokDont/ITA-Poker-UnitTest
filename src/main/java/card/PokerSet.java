@@ -90,17 +90,17 @@ public class PokerSet implements Comparable {
             if(this.getBiggest() == ((PokerSet) o).getBiggest()) return 0;
             return this.getBiggest() > ((PokerSet) o).getBiggest() ? 1 : -1;
         }else if(this.isStraight() == NOT_STRAIGHT && ((PokerSet) o).isStraight() == NOT_STRAIGHT) {
-            if(this.getMaxSameCardNum() == ((PokerSet) o).getMaxSameCardNum()) {
-                if(this.pairNum() == ((PokerSet) o).pairNum()) return compareWithPair((PokerSet) o);
-                return this.pairNum() > ((PokerSet) o).pairNum() ? 1 : -1;
-            }
-            return this.getMaxSameCardNum() > ((PokerSet) o).getMaxSameCardNum() ? 1 : -1;
+            return compareWithThree((PokerSet) o);
         }
-        if(this.isStraight() > ((PokerSet) o).isStraight()){
-            return 1;
-        }else {
-            return -1;
+        return this.isStraight() > ((PokerSet) o).isStraight() ? 1 : -1;
+    }
+
+    private int compareWithThree(PokerSet o) {
+        if(this.getMaxSameCardNum() == o.getMaxSameCardNum()) {
+            if(this.pairNum() == o.pairNum()) return compareWithPair(o);
+            return this.pairNum() > o.pairNum() ? 1 : -1;
         }
+        return this.getMaxSameCardNum() > o.getMaxSameCardNum() ? 1 : -1;
     }
 
     private int compareWithPair(PokerSet o) {
