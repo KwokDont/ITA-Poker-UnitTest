@@ -10,6 +10,9 @@ public class PokerSet implements Comparable {
     private Poker[] pokers;
     private HashMap<Integer, Integer> pairMap;
 
+    private final static int IS_STRAIGHT = 1;
+    private final static int NOT_STRAIGHT = 0;
+
     public PokerSet(String cards) {
         pairMap = new HashMap<>();
         generatePokerArray(cards);
@@ -83,13 +86,16 @@ public class PokerSet implements Comparable {
 
     @Override
     public int compareTo(Object o) {
-        if(this.getMaxSameCardNum() > ((PokerSet) o).getMaxSameCardNum()) {
+        if(this.isStraight() > ((PokerSet) o).isStraight()){
             return 1;
-        }else if(this.getMaxSameCardNum() < ((PokerSet) o).getMaxSameCardNum()) {
+        }else if (this.isStraight() < ((PokerSet) o).isStraight()) {
             return -1;
         }
-        if(this.pairNum() == ((PokerSet) o).pairNum()) return compareWithPair((PokerSet) o);
-        return this.pairNum() > ((PokerSet) o).pairNum() ? 1 : -1;
+        if(this.getMaxSameCardNum() == ((PokerSet) o).getMaxSameCardNum()) {
+            if(this.pairNum() == ((PokerSet) o).pairNum()) return compareWithPair((PokerSet) o);
+            return this.pairNum() > ((PokerSet) o).pairNum() ? 1 : -1;
+        }
+        return this.getMaxSameCardNum() > ((PokerSet) o).getMaxSameCardNum() ? 1 : -1;
     }
 
     private int compareWithPair(PokerSet o) {
@@ -109,6 +115,16 @@ public class PokerSet implements Comparable {
             }
         }
         return 0;
+    }
+
+    private int isStraight() {
+        if (pokers.length == 1) return IS_STRAIGHT;
+        for(int i = pokers.length - 1 ; i > 0 ; i--) {
+            if(pokers[i].getNum() - pokers[i-1].getNum() != 1) {
+                return NOT_STRAIGHT;
+            }
+        }
+        return IS_STRAIGHT;
     }
 
     public Poker[] getPokers() {

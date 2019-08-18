@@ -124,12 +124,32 @@ public class PokerTest {
     }
 
     @Test
-    public void should_return_card_when_card1_has_three_same_poker() {
+    public void should_return_card1_when_card1_has_three_same_poker() {
         String cards1 = "2D 2S 2C 5S KD";
         String cards2 = "2C 2H 5H 5D KS";
 
         String highCard = PokerUtil.compare(cards1, cards2);
 
         Assert.assertEquals(cards1, highCard);
+    }
+
+    @Test
+    public void should_return_card1_when_card1_has_bigger_three_same_poker_than_card2() {
+        String cards1 = "3D 3S 3C 5S TD";
+        String cards2 = "2C 2H 2H 5D KS";
+
+        String highCard = PokerUtil.compare(cards1, cards2);
+
+        Assert.assertEquals(cards1, highCard);
+    }
+
+    @Test
+    public void should_return_card1_when_card1_straight_and_card_is_three() {
+        String cards1 = "3D 3S 3C 5S TD";
+        String cards2 = "2C 3H 4H 5D 6S";
+
+        String highCard = PokerUtil.compare(cards1, cards2);
+
+        Assert.assertEquals(cards2, highCard);
     }
 }
