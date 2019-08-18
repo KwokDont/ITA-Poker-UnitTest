@@ -103,4 +103,13 @@ public class PokerTest {
 
         Assert.assertEquals(cards1, highCard);
     }
+    @Test
+    public void should_return_card1_when_card1_has_bigger_single_poker() {
+        String cards1 = "2D 2S 5C 5S KD";
+        String cards2 = "2C 2H 5H 5D 9S";
+
+        String highCard = PokerUtil.compare(cards1, cards2);
+
+        Assert.assertEquals(cards1, highCard);
+    }
 }

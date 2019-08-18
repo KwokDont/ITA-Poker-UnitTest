@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="6af4a8d3-8a97-4ab6-a0d8-0d4cb74938bd" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/src/main/java/card/PokerSet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/card/PokerSet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/PokerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/PokerTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -25,11 +26,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/PokerTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="99" column="29" selection-start-line="99" selection-start-column="29" selection-end-line="99" selection-end-column="29" />
+            <state relative-caret-position="57">
+              <caret line="108" column="26" selection-start-line="108" selection-start-column="26" selection-end-line="108" selection-end-column="26" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -52,26 +53,17 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/card/PokerUtil.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="29">
-              <caret line="10" column="37" lean-forward="true" selection-start-line="10" selection-start-column="37" selection-end-line="10" selection-end-column="37" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/card/PokerSet.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="359">
-              <caret line="84" column="45" lean-forward="true" selection-start-line="84" selection-start-column="45" selection-end-line="84" selection-end-column="45" />
+            <state relative-caret-position="140">
+              <caret line="75" column="55" selection-start-line="75" selection-start-column="55" selection-end-line="75" selection-end-column="55" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#942#943#0" expanded="true" />
                 <element signature="e#999#1000#0" expanded="true" />
-                <element signature="e#3139#3140#0" expanded="true" />
-                <element signature="e#3222#3223#0" expanded="true" />
+                <element signature="e#3115#3116#0" expanded="true" />
+                <element signature="e#3198#3199#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -115,8 +107,8 @@
         <option value="$PROJECT_DIR$/src/main/java/card/Poker.java" />
         <option value="$PROJECT_DIR$/src/main/java/card/PokerUtil.java" />
         <option value="$PROJECT_DIR$/src/main/java/card/PokerEnum.java" />
-        <option value="$PROJECT_DIR$/src/main/java/card/PokerSet.java" />
         <option value="$PROJECT_DIR$/src/test/java/PokerTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/card/PokerSet.java" />
       </list>
     </option>
   </component>
@@ -198,7 +190,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1566134787739" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1566135131871" />
     <property name="extract.method.default.visibility" value="private" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
@@ -219,7 +211,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.PokerTest.should_return_card1_when_card1_second_pair_bigger">
+  <component name="RunManager" selected="JUnit.PokerTest.should_return_card1_when_card1_has_bigger_single_poker">
     <configuration name="PokerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="com.oocl.com.oocl.unitTest.test" />
       <option name="PACKAGE_NAME" value="" />
@@ -229,11 +221,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PokerTest.should_return_3C_when_given_3C_2S" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="PokerTest.should_return_card1_when_card1_has_bigger_single_poker" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="com.oocl.com.oocl.unitTest.test" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="PokerTest" />
-      <option name="METHOD_NAME" value="should_return_3C_when_given_3C_2S" />
+      <option name="METHOD_NAME" value="should_return_card1_when_card1_has_bigger_single_poker" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -271,11 +263,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.PokerTest.should_return_card1_when_card1_has_bigger_single_poker" />
         <item itemvalue="JUnit.PokerTest.should_return_card1_when_card1_second_pair_bigger" />
         <item itemvalue="JUnit.PokerTest" />
         <item itemvalue="JUnit.PokerTest.should_return_card1_when_has_same_pair" />
         <item itemvalue="JUnit.PokerTest.should_return_card1_when_compare_bigger_card1_and_card2" />
-        <item itemvalue="JUnit.PokerTest.should_return_3C_when_given_3C_2S" />
       </list>
     </recent_temporary>
   </component>
@@ -289,20 +281,11 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1565933967429</updated>
-      <workItem from="1566110419922" duration="21839000" />
+      <workItem from="1566110419922" duration="22182000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="PokerTest - 2019.08.18 at 19h 33m 05s.xml">
-      <configuration name="PokerTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="PokerTest - 2019.08.18 at 19h 33m 11s.xml">
-      <configuration name="PokerTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="PokerTest_should_return_card1_when_has_same_pair - 2019.08.18 at 19h 33m 59s.xml">
-      <configuration name="PokerTest.should_return_card1_when_has_same_pair" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="PokerTest - 2019.08.18 at 19h 55m 12s.xml">
       <configuration name="PokerTest" configurationId="JUnit" />
     </history-entry>
@@ -324,9 +307,18 @@
     <history-entry file="PokerTest_should_return_card1_when_card1_second_pair_bigger - 2019.08.18 at 21h 26m 21s.xml">
       <configuration name="PokerTest.should_return_card1_when_card1_second_pair_bigger" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="PokerTest_should_return_card1_when_card1_has_bigger_single_poker - 2019.08.18 at 21h 30m 18s.xml">
+      <configuration name="PokerTest.should_return_card1_when_card1_has_bigger_single_poker" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PokerTest_should_return_card1_when_card1_has_bigger_single_poker - 2019.08.18 at 21h 30m 32s.xml">
+      <configuration name="PokerTest.should_return_card1_when_card1_has_bigger_single_poker" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PokerTest_should_return_card1_when_card1_has_bigger_single_poker - 2019.08.18 at 21h 30m 42s.xml">
+      <configuration name="PokerTest.should_return_card1_when_card1_has_bigger_single_poker" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="21839000" />
+    <option name="totallyTimeSpent" value="22182000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -418,26 +410,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/card/PokerSet.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/PokerTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="359">
-          <caret line="84" column="45" lean-forward="true" selection-start-line="84" selection-start-column="45" selection-end-line="84" selection-end-column="45" />
+        <state relative-caret-position="57">
+          <caret line="108" column="26" selection-start-line="108" selection-start-column="26" selection-end-line="108" selection-end-column="26" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#942#943#0" expanded="true" />
-            <element signature="e#999#1000#0" expanded="true" />
-            <element signature="e#3139#3140#0" expanded="true" />
-            <element signature="e#3222#3223#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/PokerTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/card/PokerSet.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="99" column="29" selection-start-line="99" selection-start-column="29" selection-end-line="99" selection-end-column="29" />
+        <state relative-caret-position="140">
+          <caret line="75" column="55" selection-start-line="75" selection-start-column="55" selection-end-line="75" selection-end-column="55" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#942#943#0" expanded="true" />
+            <element signature="e#999#1000#0" expanded="true" />
+            <element signature="e#3115#3116#0" expanded="true" />
+            <element signature="e#3198#3199#0" expanded="true" />
           </folding>
         </state>
       </provider>
