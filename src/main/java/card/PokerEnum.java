@@ -25,6 +25,14 @@ public enum  PokerEnum {
                 .orElse(ERROR_CARD);
     }
 
+    public static String getPokerCard(int value) {
+        return Arrays.stream(PokerEnum.values())
+                .filter(pokerEnum -> pokerEnum.getValue().equals(value))
+                .findFirst()
+                .map(PokerEnum::getCard)
+                .orElse("ERROR_CARD");
+    }
+
     public String getCard() {
         return card;
     }

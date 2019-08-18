@@ -3,7 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="6af4a8d3-8a97-4ab6-a0d8-0d4cb74938bd" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/card/Poker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/card/Poker.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/card/PokerEnum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/card/PokerEnum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/card/PokerUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/card/PokerUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/PokerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/PokerTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -29,8 +32,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/PokerTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="617">
-              <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
+            <state relative-caret-position="281">
+              <caret line="52" column="54" selection-start-line="52" selection-start-column="54" selection-end-line="52" selection-end-column="54" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -41,36 +44,49 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/card/Poker.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="224">
-              <caret line="8" column="42" selection-start-line="8" selection-start-column="29" selection-end-line="8" selection-end-column="42" />
+            <state relative-caret-position="196">
+              <caret line="7" column="31" selection-start-line="7" selection-start-column="31" selection-end-line="7" selection-end-column="31" />
               <folding>
-                <element signature="e#271#272#0" expanded="true" />
-                <element signature="e#297#298#0" expanded="true" />
-                <element signature="e#332#333#0" expanded="true" />
-                <element signature="e#362#363#0" expanded="true" />
-                <element signature="e#394#395#0" expanded="true" />
-                <element signature="e#422#423#0" expanded="true" />
-                <element signature="e#464#465#0" expanded="true" />
-                <element signature="e#498#499#0" expanded="true" />
+                <element signature="e#274#275#0" expanded="true" />
+                <element signature="e#308#309#0" expanded="true" />
+                <element signature="e#335#336#0" expanded="true" />
+                <element signature="e#361#362#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/card/CardUtil.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/card/PokerUtil.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="168">
-              <caret line="6" column="40" lean-forward="true" selection-start-line="6" selection-start-column="40" selection-end-line="6" selection-end-column="40" />
+            <state relative-caret-position="169">
+              <caret line="9" column="44" lean-forward="true" selection-start-line="9" selection-start-column="44" selection-end-line="9" selection-end-column="44" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/card/PokerSet.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="168">
+              <caret line="6" column="28" lean-forward="true" selection-start-line="6" selection-start-column="28" selection-end-line="6" selection-end-column="28" />
+              <folding>
+                <element signature="e#924#925#0" expanded="true" />
+                <element signature="e#960#961#0" expanded="true" />
+                <element signature="e#1091#1092#0" expanded="true" />
+                <element signature="e#1120#1121#0" expanded="true" />
+                <element signature="e#455#456#0" expanded="true" />
+                <element signature="e#484#485#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/card/PokerEnum.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="169">
-              <caret line="21" column="52" selection-start-line="21" selection-start-column="52" selection-end-line="21" selection-end-column="52" />
+            <state relative-caret-position="728">
+              <caret line="29" column="45" selection-start-line="29" selection-start-column="45" selection-end-line="29" selection-end-column="45" />
               <folding>
                 <element signature="e#439#440#0" expanded="true" />
                 <element signature="e#466#467#0" expanded="true" />
@@ -100,10 +116,12 @@
         <option value="$PROJECT_DIR$/src/main/java/cardUtil.java" />
         <option value="$PROJECT_DIR$/src/main/java/card/cardUtil.java" />
         <option value="$PROJECT_DIR$/build.gradle" />
-        <option value="$PROJECT_DIR$/src/main/java/card/Poker.java" />
         <option value="$PROJECT_DIR$/src/main/java/card/CardUtil.java" />
-        <option value="$PROJECT_DIR$/src/test/java/PokerTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/card/PokerEnum.java" />
+        <option value="$PROJECT_DIR$/src/main/java/card/Poker.java" />
+        <option value="$PROJECT_DIR$/src/main/java/card/PokerUtil.java" />
+        <option value="$PROJECT_DIR$/src/main/java/card/PokerSet.java" />
+        <option value="$PROJECT_DIR$/src/test/java/PokerTest.java" />
       </list>
     </option>
   </component>
@@ -185,7 +203,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1566115270822" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1566120907836" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RecentsManager">
@@ -206,26 +224,6 @@
     </option>
   </component>
   <component name="RunManager" selected="JUnit.PokerTest">
-    <configuration name="PokerTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;PokerTest&quot;" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":cleanTest" />
-            <option value=":test" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
-      <method v="2" />
-    </configuration>
     <configuration name="PokerTest.should_return_3C_when_given_3C_2S" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -275,13 +273,23 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="PokerTest.should_return_card1_when_compare_bigger_card1_and_card2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="com.oocl.com.oocl.unitTest.test" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="PokerTest" />
+      <option name="METHOD_NAME" value="should_return_card1_when_compare_bigger_card1_and_card2" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.PokerTest" />
-        <item itemvalue="JUnit.PokerTest.should_return_KC_when_given_KC_2S" />
+        <item itemvalue="JUnit.PokerTest.should_return_card1_when_compare_bigger_card1_and_card2" />
         <item itemvalue="JUnit.PokerTest.should_return_3C_when_given_3C_2S" />
+        <item itemvalue="JUnit.PokerTest.should_return_KC_when_given_KC_2S" />
         <item itemvalue="Gradle.PokerTest.should_return_3C_when_given_3C_2S" />
-        <item itemvalue="Gradle.PokerTest" />
       </list>
     </recent_temporary>
   </component>
@@ -295,44 +303,44 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1565933967429</updated>
-      <workItem from="1566110419922" duration="4542000" />
+      <workItem from="1566110419922" duration="10171000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="PokerTest_should_return_3C_when_given_3C_2S - 2019.08.18 at 14h 56m 12s.xml">
-      <configuration name="PokerTest.should_return_3C_when_given_3C_2S" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="PokerTest_should_return_3C_when_given_3C_2S - 2019.08.18 at 15h 18m 36s.xml">
-      <configuration name="PokerTest.should_return_3C_when_given_3C_2S" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="PokerTest_should_return_3C_when_given_3C_2S - 2019.08.18 at 15h 19m 37s.xml">
-      <configuration name="PokerTest.should_return_3C_when_given_3C_2S" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="PokerTest_should_return_3C_when_given_3C_2S - 2019.08.18 at 15h 21m 47s.xml">
-      <configuration name="PokerTest.should_return_3C_when_given_3C_2S" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="PokerTest_should_return_3C_when_given_3C_2S - 2019.08.18 at 15h 22m 27s.xml">
-      <configuration name="PokerTest.should_return_3C_when_given_3C_2S" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="PokerTest_should_return_KC_when_given_KC_2S - 2019.08.18 at 15h 37m 37s.xml">
-      <configuration name="PokerTest.should_return_KC_when_given_KC_2S" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="PokerTest - 2019.08.18 at 15h 43m 11s.xml">
-      <configuration name="PokerTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="PokerTest_should_return_KC_when_given_KC_2S - 2019.08.18 at 15h 46m 27s.xml">
-      <configuration name="PokerTest.should_return_KC_when_given_KC_2S" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="PokerTest_should_return_KC_when_given_KC_2S - 2019.08.18 at 16h 00m 48s.xml">
       <configuration name="PokerTest.should_return_KC_when_given_KC_2S" configurationId="JUnit" />
     </history-entry>
     <history-entry file="PokerTest - 2019.08.18 at 16h 00m 54s.xml">
       <configuration name="PokerTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="PokerTest - 2019.08.18 at 17h 01m 14s.xml">
+      <configuration name="PokerTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PokerTest_should_return_3C_when_given_3C_2S - 2019.08.18 at 17h 05m 43s.xml">
+      <configuration name="PokerTest.should_return_3C_when_given_3C_2S" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PokerTest - 2019.08.18 at 17h 05m 48s.xml">
+      <configuration name="PokerTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PokerTest - 2019.08.18 at 17h 08m 58s.xml">
+      <configuration name="PokerTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PokerTest - 2019.08.18 at 17h 22m 06s.xml">
+      <configuration name="PokerTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PokerTest - 2019.08.18 at 17h 22m 52s.xml">
+      <configuration name="PokerTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PokerTest_should_return_card1_when_compare_bigger_card1_and_card2 - 2019.08.18 at 17h 24m 46s.xml">
+      <configuration name="PokerTest.should_return_card1_when_compare_bigger_card1_and_card2" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PokerTest - 2019.08.18 at 17h 25m 40s.xml">
+      <configuration name="PokerTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4542000" />
+    <option name="totallyTimeSpent" value="10171000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -351,7 +359,7 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3286119" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39943343" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -374,6 +382,15 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="XDebuggerManager">
+    <watches-manager>
+      <configuration name="JUnit">
+        <watch expression="this.getBiggest()" />
+        <watch expression="(PokerSet) o).getBiggest()" />
+        <watch expression="((PokerSet) o).getBiggest()" />
+      </configuration>
+    </watches-manager>
+  </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
@@ -382,49 +399,60 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/card/Poker.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/card/PokerEnum.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="8" column="42" selection-start-line="8" selection-start-column="29" selection-end-line="8" selection-end-column="42" />
+        <state relative-caret-position="728">
+          <caret line="29" column="45" selection-start-line="29" selection-start-column="45" selection-end-line="29" selection-end-column="45" />
           <folding>
-            <element signature="e#271#272#0" expanded="true" />
-            <element signature="e#297#298#0" expanded="true" />
-            <element signature="e#332#333#0" expanded="true" />
-            <element signature="e#362#363#0" expanded="true" />
-            <element signature="e#394#395#0" expanded="true" />
-            <element signature="e#422#423#0" expanded="true" />
-            <element signature="e#464#465#0" expanded="true" />
-            <element signature="e#498#499#0" expanded="true" />
+            <element signature="e#439#440#0" expanded="true" />
+            <element signature="e#466#467#0" expanded="true" />
+            <element signature="e#499#500#0" expanded="true" />
+            <element signature="e#527#528#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/card/CardUtil.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/card/Poker.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="6" column="40" lean-forward="true" selection-start-line="6" selection-start-column="40" selection-end-line="6" selection-end-column="40" />
+        <state relative-caret-position="196">
+          <caret line="7" column="31" selection-start-line="7" selection-start-column="31" selection-end-line="7" selection-end-column="31" />
+          <folding>
+            <element signature="e#274#275#0" expanded="true" />
+            <element signature="e#308#309#0" expanded="true" />
+            <element signature="e#335#336#0" expanded="true" />
+            <element signature="e#361#362#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/card/PokerUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="169">
+          <caret line="9" column="44" lean-forward="true" selection-start-line="9" selection-start-column="44" selection-end-line="9" selection-end-column="44" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/PokerTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="617">
-          <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
+        <state relative-caret-position="281">
+          <caret line="52" column="54" selection-start-line="52" selection-start-column="54" selection-end-line="52" selection-end-column="54" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/card/PokerEnum.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/card/PokerSet.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="169">
-          <caret line="21" column="52" selection-start-line="21" selection-start-column="52" selection-end-line="21" selection-end-column="52" />
+        <state relative-caret-position="168">
+          <caret line="6" column="28" lean-forward="true" selection-start-line="6" selection-start-column="28" selection-end-line="6" selection-end-column="28" />
           <folding>
-            <element signature="e#439#440#0" expanded="true" />
-            <element signature="e#466#467#0" expanded="true" />
-            <element signature="e#499#500#0" expanded="true" />
-            <element signature="e#527#528#0" expanded="true" />
+            <element signature="e#924#925#0" expanded="true" />
+            <element signature="e#960#961#0" expanded="true" />
+            <element signature="e#1091#1092#0" expanded="true" />
+            <element signature="e#1120#1121#0" expanded="true" />
+            <element signature="e#455#456#0" expanded="true" />
+            <element signature="e#484#485#0" expanded="true" />
           </folding>
         </state>
       </provider>

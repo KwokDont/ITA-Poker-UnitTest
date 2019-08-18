@@ -10,6 +10,10 @@ public class Poker {
         this.color = card.substring(1,2);
     }
 
+    public String getPokerStr() {
+        return PokerEnum.getPokerCard(num) + color;
+    }
+
     public int getNum() {
         return num;
     }

@@ -1,12 +1,18 @@
 package card;
 
-public class CardUtil {
+public class PokerUtil {
 
-    private Poker[] pokers = new Poker[5];
+    public final static String EQUAL_POKERS = "equals";
 
-    public static Poker compare(String card1, String card2) {
-        Poker poker1 = new Poker(card1);
-        Poker poker2 = new Poker(card2);
-        return poker1.getNum() > poker2.getNum() ? poker1 : poker2;
+    public static String compare(String card1, String card2) {
+        PokerSet pokers1 = new PokerSet(card1);
+        PokerSet pokers2 = new PokerSet(card2);
+        if(pokers1.compareTo(pokers2) == 1){
+            return pokers1.poker2Strng();
+        }else if(pokers1.compareTo(pokers2) == -1) {
+            return pokers2.poker2Strng();
+        }else {
+            return EQUAL_POKERS;
+        }
     }
 }
