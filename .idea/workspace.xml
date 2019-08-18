@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="6af4a8d3-8a97-4ab6-a0d8-0d4cb74938bd" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/src/main/java/card/PokerSet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/card/PokerSet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/PokerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/PokerTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -28,8 +29,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/PokerTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="378">
-              <caret line="163" column="5" lean-forward="true" selection-start-line="163" selection-start-column="5" selection-end-line="163" selection-end-column="5" />
+            <state relative-caret-position="310">
+              <caret line="182" selection-start-line="182" selection-end-line="182" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -64,16 +65,16 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/card/PokerSet.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="351">
-              <caret line="94" column="72" lean-forward="true" selection-start-line="94" selection-start-column="72" selection-end-line="94" selection-end-column="72" />
+            <state relative-caret-position="189">
+              <caret line="15" column="41" selection-start-line="15" selection-start-column="41" selection-end-line="15" selection-end-column="41" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#942#943#0" expanded="true" />
                 <element signature="e#999#1000#0" expanded="true" />
                 <element signature="e#1260#1261#0" expanded="true" />
                 <element signature="e#1306#1307#0" expanded="true" />
-                <element signature="e#4491#4492#0" expanded="true" />
-                <element signature="e#4574#4575#0" expanded="true" />
+                <element signature="e#5032#5033#0" expanded="true" />
+                <element signature="e#5115#5116#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -206,7 +207,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1566143492050" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1566144495045" />
     <property name="extract.method.default.visibility" value="private" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
@@ -297,20 +298,11 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1565933967429</updated>
-      <workItem from="1566110419922" duration="29713000" />
+      <workItem from="1566110419922" duration="30735000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="PokerTest - 2019.08.18 at 23h 30m 20s.xml">
-      <configuration name="PokerTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="PokerTest_should_return_card1_when_card1_straight_and_card_is_three - 2019.08.18 at 23h 30m 51s.xml">
-      <configuration name="PokerTest.should_return_card1_when_card1_straight_and_card_is_three" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="PokerTest - 2019.08.18 at 23h 35m 52s.xml">
-      <configuration name="PokerTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="PokerTest_should_return_equals_when_card1_card2_straight_and_the_same - 2019.08.18 at 23h 38m 38s.xml">
       <configuration name="PokerTest.should_return_equals_when_card1_card2_straight_and_the_same" configurationId="JUnit" />
     </history-entry>
@@ -332,9 +324,18 @@
     <history-entry file="PokerTest - 2019.08.18 at 23h 49m 18s.xml">
       <configuration name="PokerTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="PokerTest - 2019.08.18 at 23h 51m 34s.xml">
+      <configuration name="PokerTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PokerTest - 2019.08.19 at 00h 04m 27s.xml">
+      <configuration name="PokerTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PokerTest - 2019.08.19 at 00h 05m 27s.xml">
+      <configuration name="PokerTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="29713000" />
+    <option name="totallyTimeSpent" value="30735000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -352,7 +353,7 @@
       <window_info anchor="bottom" id="Database Changes" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49946696" visible="true" weight="0.3275488" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49946696" visible="true" weight="0.34273317" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49946696" weight="0.30585682" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -449,8 +450,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/PokerTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="163" column="5" lean-forward="true" selection-start-line="163" selection-start-column="5" selection-end-line="163" selection-end-column="5" />
+        <state relative-caret-position="310">
+          <caret line="182" selection-start-line="182" selection-end-line="182" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -459,16 +460,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/card/PokerSet.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="351">
-          <caret line="94" column="72" lean-forward="true" selection-start-line="94" selection-start-column="72" selection-end-line="94" selection-end-column="72" />
+        <state relative-caret-position="189">
+          <caret line="15" column="41" selection-start-line="15" selection-start-column="41" selection-end-line="15" selection-end-column="41" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#942#943#0" expanded="true" />
             <element signature="e#999#1000#0" expanded="true" />
             <element signature="e#1260#1261#0" expanded="true" />
             <element signature="e#1306#1307#0" expanded="true" />
-            <element signature="e#4491#4492#0" expanded="true" />
-            <element signature="e#4574#4575#0" expanded="true" />
+            <element signature="e#5032#5033#0" expanded="true" />
+            <element signature="e#5115#5116#0" expanded="true" />
           </folding>
         </state>
       </provider>

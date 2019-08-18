@@ -172,4 +172,14 @@ public class PokerTest {
 
         Assert.assertEquals(cards1, highCard);
     }
+
+    @Test
+    public void should_return_card2_when_card2_flush_card1_straight() {
+        String cards1 = "3D 4S 5C 6S 7D";
+        String cards2 = "2H 3H 4H 5H 8H";
+
+        String highCard = PokerUtil.compare(cards1, cards2);
+
+        Assert.assertEquals(cards2, highCard);
+    }
 }

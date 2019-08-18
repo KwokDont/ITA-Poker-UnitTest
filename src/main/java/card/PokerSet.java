@@ -10,8 +10,12 @@ public class PokerSet implements Comparable {
     private Poker[] pokers;
     private HashMap<Integer, Integer> pairMap;
 
-    private final static int IS_STRAIGHT = 1;
     private final static int NOT_STRAIGHT = 0;
+    private final static int IS_STRAIGHT = 1;
+    private final static int NOT_FLUSH = 2;
+    private final static int IS_FLUSH = 3;
+
+
 
     public PokerSet(String cards) {
         pairMap = new HashMap<>();
@@ -86,6 +90,11 @@ public class PokerSet implements Comparable {
 
     @Override
     public int compareTo(Object o) {
+        if(this.isFlush() > ((PokerSet) o).isFlush()) {
+            return 1;
+        }else if(this.isFlush() < ((PokerSet) o).isFlush()) {
+            return -1;
+        }
         if(this.isStraight() == IS_STRAIGHT && ((PokerSet) o).isStraight() == IS_STRAIGHT) {
             if(this.getBiggest() == ((PokerSet) o).getBiggest()) return 0;
             return this.getBiggest() > ((PokerSet) o).getBiggest() ? 1 : -1;
@@ -130,6 +139,16 @@ public class PokerSet implements Comparable {
             }
         }
         return IS_STRAIGHT;
+    }
+
+    private int isFlush() {
+        if (pokers.length == 1) return IS_FLUSH;
+        for (int i = 0; i < 4; i++) {
+            if (!pokers[i].getColor().equals(pokers[i + 1].getColor())) {
+                return NOT_FLUSH;
+            }
+        }
+        return IS_FLUSH;
     }
 
     public Poker[] getPokers() {
