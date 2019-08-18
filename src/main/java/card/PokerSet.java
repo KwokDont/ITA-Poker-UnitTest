@@ -63,9 +63,20 @@ public class PokerSet implements Comparable {
         return pairNum;
     }
 
+    private int getBigPairCard() {
+        int bigCard = 0;
+        for(int value:pairMap.values()){
+            if(value > bigCard) bigCard = value;
+        }
+        return bigCard;
+    }
+
     @Override
     public int compareTo(Object o) {
-        if(this.pairNum() == ((PokerSet) o).pairNum()) return compareBySingle((PokerSet) o);
+        if(this.pairNum() == ((PokerSet) o).pairNum()) {
+            if(this.getBigPairCard() == ((PokerSet) o).getBigPairCard()) return compareBySingle((PokerSet) o);
+            return this.getBigPairCard() > ((PokerSet) o).getBigPairCard() ? 1 : -1;
+        }
         return this.pairNum() > ((PokerSet) o).pairNum() ? 1 : -1;
     }
 
@@ -82,5 +93,9 @@ public class PokerSet implements Comparable {
 
     public Poker[] getPokers() {
         return pokers;
+    }
+
+    public HashMap<Integer, Integer> getPairMap() {
+        return pairMap;
     }
 }
